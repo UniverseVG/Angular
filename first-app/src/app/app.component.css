@@ -1,0 +1,73 @@
+.app-title {
+  text-align: center;
+  color: #c1c1c1;
+  font-size: 70px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-text {
+  display: inline;
+  margin: 0;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 10px;
+}
+
+.add-btn {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #7313cb;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+.container {
+  color: #fff;
+  max-width: 500px;
+  margin: auto;
+}
+
+.list ul li button {
+  position: absolute;
+  right: 0%;
+  background-color: #f34541;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0.4rem;
+  display: inline-block;
+  border: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list ul li {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+  background-color: #ffff;
+  line-height: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 0.4rem;
+}
