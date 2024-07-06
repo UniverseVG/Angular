@@ -1,0 +1,95 @@
+.card-item {
+  width: 300px;
+  margin: 1rem;
+  height: 600px;
+  position: relative;
+  border-radius: 8px;
+  background: white;
+  padding-bottom: 2rem;
+  transition: all 1s ease;
+  box-shadow: 0 20px 40px rgba(87, 84, 84, 0.328);
+}
+
+.card-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(16, 14, 14, 0.5);
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  position: relative;
+  transition: all 0.5s;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image1 {
+  background-image: url("https://img.freepik.com/free-photo/abstract-blurred-multi-colored-background-generative-ai_169016-30200.jpg");
+}
+
+.content {
+  padding: 1rem;
+}
+
+.title {
+  margin: 1rem 0;
+  color: #e65b00;
+  font-size: 1.4rem;
+}
+.description {
+  margin-bottom: 1rem;
+  max-height: 200px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
+.description > p {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  font-family: sans-serif;
+  color: rgb(124, 133, 141);
+  line-height: 1.5;
+  margin: 0;
+}
+.views {
+  color: rgb(124, 133, 141);
+  font-size: 14px;
+}
+
+.reactions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  color: #e65b00;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  border: 1px solid #e65b00;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.tag:hover {
+  color: white;
+  background-color: #e65b00;
+}
